@@ -1,0 +1,4 @@
+interface:
+  display_name: "Android 标准发版"
+  short_description: "准备 Android 正式签名安装包、验收记录与 GitHub 发布文案"
+  default_prompt: "使用 $android-standard-package 为当前 Android 项目准备正式版交付。"

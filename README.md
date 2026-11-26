@@ -406,6 +406,9 @@ Trea 使用 **`.agent`** 目录名（单数）：
 | `brand` | 品牌指南、视觉识别与资产校验。 |
 | `slides` | 融资/产品路演幻灯片结构与文案（联动 design-system scripts）。 |
 | `banner-design` | 横幅尺寸与风格规范（完整生成链依赖未打包的 ai-artist 等，见 environment.md）。 |
+| **Android 开发与发布** | |
+| [android-web-app-shell](skills/android-web-app-shell/SKILL.md) | 将已有网站封装为 Android 应用，并验证原生能力、系统提醒和网页适配。 |
+| [android-standard-package](skills/android-standard-package/SKILL.md) | 核对正式签名与安装包，准备验收记录和 GitHub Release 材料。 |
 | **CAD 工程出图**（Cursor + Codex 托管） | |
 | `cad-structure-layout-debug` | 从零搭建或调试 CAD 出图组件，覆盖 DXF 排版、布局引擎、明细表锚点、预览一致性、烟测与视觉验收；编辑源在工作区根 `cad-structure-layout-debug/`，经 sync 发布到 `<配置包根目录>/skills/`。 |
 | **WPF + Python 工程脚手架**（Cursor + Codex 托管） | |

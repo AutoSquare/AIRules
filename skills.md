@@ -44,6 +44,8 @@ DSH 调用方式：模型用 `skill` 工具按名称加载；用户可用 `/<nam
 
 ## Android 开发
 
+- [android-web-app-shell](skills/android-web-app-shell/SKILL.md)：为已有网站设计和验收 Android 壳，涵盖登录、文件、品牌、系统主题、后台提醒和生产联调。
+- [android-standard-package](skills/android-standard-package/SKILL.md)：准备正式签名 APK，核对覆盖升级，并生成分层验收记录、Git 提交文案及 GitHub 首发或更新说明。
 - `android-emulator-network-fix`：修复 Android 模拟器（AVD）无法联网——gstatic 网络校验被墙导致网络缺 VALIDATED，App 判定无网络；含诊断决策树与一键修复脚本（换国内探测地址 + `svc` 重启网络栈），附带脚本自包含在 `scripts/`；ZCode 安装脚本托管该 Skill。
 
 ## Superpowers 软件开发方法

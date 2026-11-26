@@ -1,0 +1,4 @@
+interface:
+  display_name: "Android 网站壳应用"
+  short_description: "设计、实现和验收 Android 网站壳的系统能力与跨端集成"
+  default_prompt: "使用 $android-web-app-shell 阅读现有网站，先对齐 Android 壳的需求并制定方案。"
